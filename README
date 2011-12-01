@@ -1,0 +1,5 @@
+*** Java EE 6 demo application
+
+Download latest JBoss AS 7, unpack, start standalone and run mvn package jboss-as:deploy in jshizzle-web project.
+
+Go to http://localhost:8080/jshizzle/ to test.
