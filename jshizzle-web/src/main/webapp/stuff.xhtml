@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+
+<h:head></h:head>
+<h:body>
+
+    <h:form id="greetme">
+        <p><h:outputLabel value="Enter your stuff: " for="stuff"/>
+            <h:inputText id="stuff" value="#{printer.stuff}"/></p>
+        <p><h:commandButton value="Say stuff"
+                            action="#{printer.createNewStuff}"/></p>
+        <p><h:outputText value="#{printer.stuff}"/></p>
+    </h:form>
+
+</h:body>
+</html>

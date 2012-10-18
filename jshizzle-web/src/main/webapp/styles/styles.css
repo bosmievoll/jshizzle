@@ -1,0 +1,47 @@
+.bordered-box {
+    border-radius: 0.3em;
+    border: 0.1em solid #d5d5d5;
+    padding: 0.8ex 0 1ex 0.2em;
+    margin: 1ex 0 1ex 0.2em;
+}
+
+.bordered-box h4 {
+    margin-top: 0.2ex;
+    font-weight: normal;
+}
+
+.default-form-layout {
+}
+
+.default-form-layout label {
+    display: block;
+    float: left;
+    font-weight: normal;
+    text-align: right;
+    width: 12em;
+    padding-right: 0.45em;
+}
+
+.default-form-layout span {
+    display: block;
+    font-weight: lighter;
+    font-size: 0.75em;
+    text-align: right;
+}
+
+.default-form-layout p {
+    clear: both;
+    float: left;
+    margin-top: 0.6ex;
+    margin-bottom: 0.8ex;
+}
+
+.default-form-layout input {
+    float: left;
+    font-weight: bold;
+    background: none repeat scroll 0 0 #fafafa;
+    border: 0.1em solid #d5d5d5;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    padding: 0.15em;
+    width: 16em;
+}

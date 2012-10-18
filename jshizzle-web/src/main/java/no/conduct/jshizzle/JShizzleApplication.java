@@ -15,6 +15,7 @@ public class JShizzleApplication extends Application {
     public Set<Class<?>> getClasses() {
         return new HashSet<Class<?>>() {{
             add(FooResource.class);
+            add(StuffResource.class);
         }};
     }
 }
